@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --green:#27ae60;
-    --dark-color:#219150;
+    --green:#ec2c8f;
+    --dark-color:#5d037d;
     --black:#444;
     --light-color:#666;
     --border:.1rem solid rgba(0,0,0,.1);
@@ -10,7 +10,7 @@
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 }
 
-*{
+*{  
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
     box-sizing: border-box;
@@ -65,7 +65,7 @@ section{
     font-size: 3rem;
     padding:.5rem 2rem;
     color:var(--black);
-    background: #fff;
+    background:#ec2c8f ;
     border:var(--border);
 }
 
@@ -86,7 +86,7 @@ section{
 }
 
 .header .header-1{
-    background:#fff;
+    background:#ffdee5;
     padding:1.5rem 9%;
     display: flex;
     align-items: center;
@@ -523,7 +523,7 @@ section{
 }
 
 .deal{
-    background:#f3f3f3;
+    background:#6c558e;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
